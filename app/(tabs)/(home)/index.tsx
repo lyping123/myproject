@@ -1,9 +1,12 @@
 import { View, Text, StyleSheet } from 'react-native';
+import { Link } from 'expo-router';
 
-export default function Tab() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Tab [Home|Settings]</Text>
+      <Text>Home</Text>
+      <Link href="/details/1">View first user details</Link>
+      <Link href="/details/2">View second user details</Link>
     </View>
   );
 }
