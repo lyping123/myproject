@@ -1,12 +1,3 @@
-import { JsStack } from './layouts/js-stack';
+import { Stack } from 'expo-router';
 
-export default function Layout() {
-  return (
-    <JsStack
-      screenOptions={
-        {
-        }
-      }
-    />
-  );
-}
+export default Stack;
